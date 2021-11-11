@@ -1,9 +1,23 @@
 .root {
+    max-width: 800px;
     padding: 0 380px;
 }
 
 .profile_root {
+    margin-top: 70px;
     display: flex;
+}
+
+.profile_icon_box {
+    height: 150px; width: 150px;
+    border-radius: 22px;
+    margin-bottom: 102px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.profile_icon_img {
+    height: 100%; width: 100%;
 }
 
 .profile_content_box {
@@ -12,4 +26,38 @@
 
 .profile_content_upside {
     display: flex;
+    justify-content: space-between;
+}
+
+.profile_job_txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+
+.profile_name_txt {
+    font-size: 23px;
+    font-weight: 600;
+    color: #171b1d;
+}
+
+.profile_sns_button {
+    height: 24px; width: 24px;
+    border: none;
+    background-color: transparent;
+}
+
+.profile_introduction_txt {
+    font-size: 14;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444444;
+    margin-bottom: 68px;
+}
+
+
+.article_list_root {
+    padding: 72px 40px ;
+    border-radius: 29px;
+    background-color: #f7f7f7;
 }
