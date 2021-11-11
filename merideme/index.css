@@ -1,0 +1,15 @@
+.root {
+    padding: 0 380px;
+}
+
+.profile_root {
+    display: flex;
+}
+
+.profile_content_box {
+    padding-left: 32px;
+}
+
+.profile_content_upside {
+    display: flex;
+}
