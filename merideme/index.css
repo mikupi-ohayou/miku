@@ -57,7 +57,160 @@
 
 
 .article_list_root {
+    height: 397px;
     padding: 72px 40px ;
     border-radius: 29px;
     background-color: #f7f7f7;
+}
+
+.article_list_title_txt {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: 40px;
+}
+
+.article_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_box_thumbnail {
+    height: 128px; width: 220px;
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+.article_box_thumbnail_img {
+    height: 100%; width: 100%;
+}
+
+.article_box_title_txt {
+    width: 220px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    color: #171d1d;
+}
+
+.keyword_boxs {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.keyword_box_back {
+    height: 22px; width: 88px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 29px;
+    background-color: #171b1d;
+}
+
+.keyword_txt {
+    font-size: 11px;
+    font-weight: 400;
+    color: ffffff;
+}
+
+.date_txt {
+    font-size: 11px;
+    font-weight: 400;
+    color: #171b1d;
+}
+
+.more_button_root {
+    width: 100%;    
+    display:flex;
+    justify-content:center;
+}
+
+.more_button {
+    height: 60px; width: 345px;
+    margin-top: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 30px;
+    background-color: #fff34b;
+}
+
+.more_button_txt {
+    font-size: 14px;
+    font-weight: 600;
+    color: #171b1d;
+}
+
+.writer_more_root {
+    margin-top: 70px;
+}
+
+.writer_more_title {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end
+}
+
+.writer_more_title_txt {
+    font-size: 18px;
+    font-weight: 600;
+    color: #171b1d;
+}
+.writer_more_backbutton_txt {
+    font-size: 14px;
+    font-weight: 500;
+    color: #171b1d;
+}
+
+.arrowright {
+    size: 18px;
+    color: #4c8d13;
+    margin-left: 16px;
+}
+
+.writer_list {
+    margin-top: 30px;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end
+}
+
+.writer_box {
+    width: 140px;
+    display:flex;
+  flex-flow: column;
+}
+
+.writer_box_thumbnail {
+    height: 140px; width: 140px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.writer_box_thumbnail_img {
+    height: 100%; width: 100%;
+}
+
+.writer_txt_box {
+    margin-top: 26px;
+}
+
+.writer_job_txt {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7f7f7f;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.writer_name_txt {
+    font-size: 15px;
+    font-weight: 600;
+    color :#171b1d;   
+    text-align: center;
 }
